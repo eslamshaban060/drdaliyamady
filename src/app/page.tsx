@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+<<<<<<< Updated upstream
 import Topheader from "@/components/Header/Topheader";
 import Head from "next/head";
 
@@ -45,6 +46,23 @@ const page = () => {
       {/* top header */}
       <Topheader />
     </>
+=======
+import styles from "./page.module.css";
+import Header from "@/componts/Header/Header";
+import Main from "@/componts/Main/Main";
+
+const page = () => {
+  return (
+    <div>
+      <section className={`${styles.homeSection}`}>
+        {/* header */}
+        <Header />
+
+        {/* main */}
+        <Main />
+      </section>
+    </div>
+>>>>>>> Stashed changes
   );
 };
 

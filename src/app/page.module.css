@@ -1,0 +1,10 @@
+.homeSection {
+  background: linear-gradient(
+    to top,
+    var(--c-blue) -100%,
+    #b1c5df 0%,
+    var(--c-white) 100%
+  );
+  width: 100vw;
+  height: auto;
+}

@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist_Mono, El_Messiri } from "next/font/google";
+import { El_Messiri } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
+export const ElMessiri = El_Messiri({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -130,6 +126,7 @@ export const metadata: Metadata = {
     "طب نساء كفر الدوار",
     "خدمات نسائية",
     "فحص نسائي",
+<<<<<<< Updated upstream
   ],
   openGraph: {
     title:
@@ -149,6 +146,9 @@ export const metadata: Metadata = {
     locale: "ar-EG",
     type: "website",
   },
+=======
+  ].join(),
+>>>>>>> Stashed changes
 };
 
 export default function RootLayout({
@@ -158,9 +158,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
+      {/* <body className={geistMono.className}>{children}</body> */}
+      <body className={ElMessiri.className}>{children}</body>
     </html>
   );
 }

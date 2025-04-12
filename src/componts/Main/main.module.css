@@ -1,0 +1,19 @@
+.textp {
+}
+.texth1 {
+  color: var(--c-blue2);
+  font-size: 73px;
+  font-weight: 700;
+}
+.texth3 {
+  color: var(--c-blue);
+  font-size: 44px;
+  font-weight: 600;
+}
+.heroul {
+  margin-right: -37px;
+  list-style: none;
+}
+.heroul li {
+  margin-bottom: 8px;
+}

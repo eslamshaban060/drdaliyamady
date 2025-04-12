@@ -1,0 +1,22 @@
+.link {
+  color: var(--c-blue);
+  font-size: 20px;
+  font-weight: 600;
+}
+.link:hover {
+  color: var(--c-red);
+}
+.appointButton {
+  width: 140px !important;
+  height: 50px;
+  background-color: var(--c-red2);
+  margin-top: -11px;
+  font-size: 20px;
+  color: var(--c-blue2);
+  font-weight: 700;
+  padding-top: 12px;
+}
+.appointButton2 {
+  background-color: var(--c-blue) !important;
+  color: var(--c-white);
+}

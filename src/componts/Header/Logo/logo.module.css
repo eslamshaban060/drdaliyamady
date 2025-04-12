@@ -1,0 +1,30 @@
+.logoImage {
+  width: 80px;
+  height: 80px;
+}
+.logoP {
+  margin-top: -12px;
+  color: var(--c-blue);
+}
+.logoH2 {
+  color: var(--c-red);
+}
+@media (max-width: 480px) {
+  .Thelogo {
+    max-width: 55vw;
+  }
+  .logoImage {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+  }
+  .logoP {
+    margin-top: -8px;
+    color: var(--c-blue);
+    font-size: 12px;
+  }
+  .logoH2 {
+    color: var(--c-red);
+    font-size: 22px;
+  }
+}

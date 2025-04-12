@@ -1,0 +1,7 @@
+.header {
+  height: 80px;
+  background-color: transparent;
+  position: fixed;
+  z-index: 50;
+  padding-top: 10px;
+}
