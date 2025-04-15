@@ -3,7 +3,7 @@ import { El_Messiri } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
 
-export const ElMessiri = El_Messiri({
+const ElMessiri = El_Messiri({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
