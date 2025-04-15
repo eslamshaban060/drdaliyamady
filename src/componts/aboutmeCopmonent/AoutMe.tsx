@@ -49,6 +49,9 @@ const AoutMe = () => {
                 className=" border-0 outline-0 mb-3 px-3 py-2"
                 type="text"
                 placeholder="اسمك"
+                onChange={(e) => {
+                  setname(e.target.value);
+                }}
               />
               <input
                 className=" border-0 outline-0 mb-3 px-3 py-2"
