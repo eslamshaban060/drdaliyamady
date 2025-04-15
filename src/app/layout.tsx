@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-// import { Geist_Mono, El_Messiri } from "next/font/google";
 import { El_Messiri } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
@@ -124,9 +123,6 @@ export const metadata: Metadata = {
     "حجز كشف عند دكتورة نساء",
     "تجميل السيدة",
     "طب نساء كفر الدوار",
-    "خدمات نسائية",
-    "فحص نسائي",
-<<<<<<< Updated upstream
   ],
   openGraph: {
     title:
@@ -146,9 +142,6 @@ export const metadata: Metadata = {
     locale: "ar-EG",
     type: "website",
   },
-=======
-  ].join(),
->>>>>>> Stashed changes
 };
 
 export default function RootLayout({
