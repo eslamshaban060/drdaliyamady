@@ -1,8 +1,15 @@
+"use client";
 import styles from "./aboutMe.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { IoArrowBack } from "react-icons/io5";
+import { useState } from "react";
 
 const AoutMe = () => {
+  const [name, setname] = useState("");
+  const [email, setemail] = useState("");
+  const [phone, setphone] = useState("");
+  const [massage, setmassage] = useState("");
+
   return (
     <Container className={`mt-5 py-5 ${styles.about}`}>
       <Row className=" justify-content-center align-items-center">
