@@ -21,7 +21,7 @@ function Smalnav() {
         <PiListBold />
       </Button>
       <Offcanvas
-        className={` pb-3 ${styles.Offcanvas}`}
+        className={`  ${styles.Offcanvas}`}
         show={show}
         onHide={handleClose}
         placement="end"
@@ -63,7 +63,7 @@ function Smalnav() {
           <div>
             <Socalmedia />
           </div>
-          <p className=" text-white">© حقوق الطبع والنشر ٢٠٢٥</p>
+          <p className="pb-3 text-white">© حقوق الطبع والنشر ٢٠٢٥</p>
         </div>
       </Offcanvas>
     </div>
