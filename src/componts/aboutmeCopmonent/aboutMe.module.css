@@ -1,0 +1,68 @@
+.about {
+  margin-top: 150px !important;
+}
+@media (max-width: 992) {
+  .about {
+    margin-top: 200px !important;
+  }
+}
+@media (max-width: 766) {
+  .about {
+    margin-top: 290px !important;
+  }
+}
+.buttonTitle {
+  background-color: var(--c-grean);
+  color: var(--c-blue2);
+}
+.titleh2 {
+  color: var(--c-blue);
+  font-size: 52px !important;
+}
+.titleh3 {
+  color: var(--c-blue2);
+  font-size: 40px !important;
+}
+@media (max-width: 600) {
+  .titleh2 {
+    font-size: 45px !important;
+  }
+  .titleh3 {
+    font-size: 35px !important;
+  }
+}
+.formmassage {
+  width: 85%;
+  height: 100% !important;
+  background-color: #fdf5f9;
+}
+.titlep {
+  line-height: 30px;
+  font-size: 18px;
+  color: var(--c-blue);
+}
+
+.titleh4 {
+  color: var(--c-blue2);
+}
+@media (max-width: 600) {
+  .titleh2 {
+    font-size: 45px !important;
+  }
+  .titleh3 {
+    font-size: 35px !important;
+  }
+  .formmassage {
+    width: 92%;
+  }
+}
+.form input {
+  border-bottom: 1px solid var(--c-blue2) !important;
+  width: 100%;
+  background-color: transparent;
+  color: var(--c-blue2);
+  outline: none;
+}
+.formButton {
+  background-color: var(--c-red);
+}

@@ -15,3 +15,6 @@
 .heroul li {
   margin-bottom: 8px;
 }
+.buttonappontments {
+  background-color: var(--c-blue);
+}

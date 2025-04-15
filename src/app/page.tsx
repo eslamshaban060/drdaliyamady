@@ -3,6 +3,7 @@ import Data from "@/componts/Main/data/Data";
 import styles from "./page.module.css";
 import Header from "@/componts/Header/Header";
 import Main from "@/componts/Main/Main";
+import AoutMe from "@/componts/aboutmeCopmonent/AoutMe";
 
 const page = () => {
   return (
@@ -17,6 +18,10 @@ const page = () => {
         <div className={`${styles.datafooter} w-100  position-absolute`}>
           <Data />
         </div>
+      </section>
+      {/* about me  */}
+      <section>
+        <AoutMe />
       </section>
     </div>
   );

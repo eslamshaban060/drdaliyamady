@@ -3,6 +3,7 @@ import styles from "./main.module.css";
 import Image from "next/image";
 import heroImage from "../../../public/heroimge.png";
 import { TbPointFilled } from "react-icons/tb";
+import { FaRegCalendarTimes } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -41,6 +42,12 @@ const Main = () => {
                 </li>
               </ul>
             </p>
+            <button
+              className={`${styles.buttonappontments} py-3  align-items-center rounded-3 fs-5 fw-medium mt-4 text-white border-0  px-4`}
+            >
+              <FaRegCalendarTimes />
+              <span className="pe-2">حجز موعد الاَن</span>
+            </button>
           </Col>
 
           {/* hero imge */}
