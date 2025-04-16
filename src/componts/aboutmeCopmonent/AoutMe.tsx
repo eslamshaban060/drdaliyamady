@@ -1,15 +1,8 @@
-"use client";
 import styles from "./aboutMe.module.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { IoArrowBack } from "react-icons/io5";
-import { useState } from "react";
+import Form from "./form/form";
 
 const AoutMe = () => {
-  const [name, setname] = useState("");
-  const [email, setemail] = useState("");
-  const [phone, setphone] = useState("");
-  const [massage, setmassage] = useState("");
-
   return (
     <Container className={`mt-5 py-5 ${styles.about}`}>
       <Row className=" justify-content-center align-items-center">
@@ -44,39 +37,7 @@ const AoutMe = () => {
               يرجى ملء النموذج أدناه <br />
               وسنقوم بالرد عليكى فى اسرع وقت ممكن
             </p>
-            <form action="" className={`${styles.form}  w-100  py-3`}>
-              <input
-                className=" border-0 outline-0 mb-3 px-3 py-2"
-                type="text"
-                placeholder="اسمك"
-                onChange={(e) => {
-                  setname(e.target.value);
-                }}
-              />
-              <input
-                className=" border-0 outline-0 mb-3 px-3 py-2"
-                type="email"
-                placeholder="بريدك الاكترونى "
-              />
-              <input
-                className=" border-0 outline-0 mb-4 px-3 py-2"
-                type="tel"
-                maxLength={11}
-                minLength={11}
-                placeholder=" رقم التلفون  "
-              />
-              <input
-                className=" border-0 outline-0 mb-3 px-3 py-2"
-                type="text"
-                placeholder="الرسالة"
-              />
-              <button
-                className={`${styles.formButton} px-4 py-3 rounded-2 mt-4 border-0`}
-              >
-                <span className="pe-2"> ارسال الرسالة</span>
-                <IoArrowBack />
-              </button>
-            </form>
+            <Form />
           </div>
         </Col>
       </Row>
