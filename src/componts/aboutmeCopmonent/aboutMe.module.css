@@ -8,7 +8,8 @@
 }
 @media (max-width: 766) {
   .about {
-    margin-top: 390px !important;
+    transform: translateY(100px);
+    margin-top: 290px !important;
   }
 }
 .buttonTitle {
