@@ -15,7 +15,7 @@ const page = () => {
         {/* main */}
         <Main />
         {/* buttom part */}
-        <div className={`${styles.datafooter} w-100  position-absolute`}>
+        <div className={`${styles.datafooter} w-100 bg-white `}>
           <Data />
         </div>
       </section>

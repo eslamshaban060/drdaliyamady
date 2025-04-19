@@ -4,7 +4,7 @@ import Form from "./form/form";
 
 const AoutMe = () => {
   return (
-    <Container className={`mt-5 py-5 ${styles.about}`}>
+    <Container className={`mt-5  ${styles.about}`}>
       <Row className=" justify-content-center align-items-center">
         <Col className=" text-lg-end  text-center" lg={6}>
           {/* button */}
