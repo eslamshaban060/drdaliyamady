@@ -1,6 +1,8 @@
 import styles from "./aboutMe.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Form from "./form/form";
+import { PiMicroscopeBold } from "react-icons/pi";
+import { BsClockHistory } from "react-icons/bs";
 
 const AoutMe = () => {
   return (
@@ -25,6 +27,31 @@ const AoutMe = () => {
             ليكي، نسمعك، نفهمك، ونطمنك في كل خطوة من رحلتك. تقدرى تبعتى استفسارك
             لينا فى اى وقت وهنرد عليكى فى اسرع وقت ممكن
           </p>
+          <div>
+            <Row className="fs-4">
+              <Col
+                lg={5}
+                md={6}
+                className="d-flex  align-content-lg-end align-content-center gap-3 align-items-center  "
+              >
+                <div className={`p-2  text-white  ${styles.icons}`}>
+                  <BsClockHistory size={30} />
+                </div>
+                <p className="pt-4">متابعة مستمرة </p>
+              </Col>
+              <Col
+                lg={5}
+                md={6}
+                className="d-flex  align-content-lg-end align-content-center gap-3 align-items-center "
+              >
+                <div className={`p-2  text-white  ${styles.icons}`}>
+                  <PiMicroscopeBold size={35} />
+                </div>
+
+                <p className="pt-4">احدث الاجهزة</p>
+              </Col>
+            </Row>
+          </div>
         </Col>
         <Col className="py-5" lg={6}>
           <div
